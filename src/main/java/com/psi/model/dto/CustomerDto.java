@@ -11,8 +11,8 @@ public class CustomerDto {
 	
 	private String name;
 
-//	@Override
-//	public String toString() {
-//		return "CustomerDto [id=" + id + ", name=" + name + "]";
-//	}
+	@Override
+	public String toString() {
+		return "CustomerDto [id=" + id + ", name=" + name + "]";
+	}
 }
